@@ -1,0 +1,4 @@
+#Thu Jun 28 13:47:18 IST 2018
+base.0=/Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

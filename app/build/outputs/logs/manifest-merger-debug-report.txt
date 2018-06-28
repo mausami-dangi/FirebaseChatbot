@@ -1,0 +1,448 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:54:9-62:20
+	android:grantUriPermissions
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:58:13-47
+	android:authorities
+		INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:56:13-60
+	android:exported
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:57:13-37
+	android:name
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:55:13-67
+manifest
+ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:2:1-66:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/8f5d7bf26642d55554242224214cc44d/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.siyamed:android-shape-imageview:0.9.3] /Users/mausami/.gradle/caches/transforms-1/files-1.1/android-shape-imageview-0.9.3.aar/f78b4afc9fad7f2c72eb40eec8864fbe/AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.stfalcon:chatkit:0.2.2] /Users/mausami/.gradle/caches/transforms-1/files-1.1/chatkit-0.2.2.aar/09e250657757d511bbc982c9e5271b28/AndroidManifest.xml:2:1-15:12
+MERGED from [com.karumi:dexter:4.2.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/dexter-4.2.0.aar/605e0f03998f35bbdedd0fcd3eede0de/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android:flexbox:0.2.5] /Users/mausami/.gradle/caches/transforms-1/files-1.1/flexbox-0.2.5.aar/e377aafb7811454587eceb63dd14d458/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:design:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/c0a4267d68870ca89af8a4c6e76e8d39/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/70554dd32e6f00b049a319a877844429/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.ozodrukh:CircularReveal:1.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/CircularReveal-1.1.0.aar/114da08a77422bacd20f1b4d946d24bd/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/f81dc6b43ef5e5d0091184178f22f1d1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.8.0.aar/80d509025b6e8266034b6dbdca008ba0/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-core:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/443fba7fca65c4893a4b0662b0536e0d/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:17:1-54:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/273f9de52a891fd512a5eecd3baf2fc2/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/739ea8f1419e5d95fa6768bd2652f002/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/6079a62f251c41096c6fca3e0d3f0487/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/d8f341b20989f38a23470a960dfb9159/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/333c4a3070c614b735130f7628425fe1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3beae9ddeceab682d81d5dd360058e62/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/aa21159af6fe5ae692ea01c92e09db52/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/4b84e9cdaca4ac1a3aeb327fdd2fcc42/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/ea552efdc7c722a6697dd3506d82bf90/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/40a4589b31d4505f083562ed7ef0abe2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/86c9418fe0f5f8cbb742766377cec559/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/e02ef2a328d1d87c53197a11c221a8b5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/348398c54c7b50053f43094b976a2396/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/9958ec3a1962e3c1fd8f5b55e72134c7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-11.8.0.aar/5bfc734e602467ec7a8e744e60f14f0a/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.8.0.aar/feeedc25de8b3bfb8ea6e12a55e4b649/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/6ef2745a31ac1021fa6ff4aae62a7231/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/4720118962d754053b1175ae2acbd395/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.8.0.aar/0097f6726e9049f51adb6f2b1b30ab44/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/64ef86f46d130ea970d2be8bf4593d05/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.8.0.aar/e916b2579d92db4d235e8258facd4d6f/AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/1ea1a93bc39a62664cebaa2fbf8189f0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/2040b200bc77697281410d449abdea98/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9bad0ca26075468c678ee646ffa61a62/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/86688e5d732c136cf19cbfff759977ab/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:2:1-66:12
+	package
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:3:5-50
+		INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:2:1-66:12
+		INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:2:1-66:12
+		INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:5:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/273f9de52a891fd512a5eecd3baf2fc2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/273f9de52a891fd512a5eecd3baf2fc2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:6:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:8:22-68
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:9:22-77
+uses-permission#android.permission.STORAGE
+ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:10:22-63
+uses-feature#android.hardware.camera
+ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:12:5-14:36
+	android:required
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:14:9-33
+	android:name
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:13:9-47
+application
+ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:17:5-64:19
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/8f5d7bf26642d55554242224214cc44d/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/8f5d7bf26642d55554242224214cc44d/AndroidManifest.xml:9:5-20
+MERGED from [com.github.stfalcon:chatkit:0.2.2] /Users/mausami/.gradle/caches/transforms-1/files-1.1/chatkit-0.2.2.aar/09e250657757d511bbc982c9e5271b28/AndroidManifest.xml:11:5-13:38
+MERGED from [com.github.stfalcon:chatkit:0.2.2] /Users/mausami/.gradle/caches/transforms-1/files-1.1/chatkit-0.2.2.aar/09e250657757d511bbc982c9e5271b28/AndroidManifest.xml:11:5-13:38
+MERGED from [com.karumi:dexter:4.2.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/dexter-4.2.0.aar/605e0f03998f35bbdedd0fcd3eede0de/AndroidManifest.xml:26:5-30:19
+MERGED from [com.karumi:dexter:4.2.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/dexter-4.2.0.aar/605e0f03998f35bbdedd0fcd3eede0de/AndroidManifest.xml:26:5-30:19
+MERGED from [com.github.ozodrukh:CircularReveal:1.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/CircularReveal-1.1.0.aar/114da08a77422bacd20f1b4d946d24bd/AndroidManifest.xml:10:5-20
+MERGED from [com.github.ozodrukh:CircularReveal:1.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/CircularReveal-1.1.0.aar/114da08a77422bacd20f1b4d946d24bd/AndroidManifest.xml:10:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/f81dc6b43ef5e5d0091184178f22f1d1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/f81dc6b43ef5e5d0091184178f22f1d1/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.8.0.aar/80d509025b6e8266034b6dbdca008ba0/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.8.0.aar/80d509025b6e8266034b6dbdca008ba0/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-core:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/443fba7fca65c4893a4b0662b0536e0d/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/443fba7fca65c4893a4b0662b0536e0d/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/273f9de52a891fd512a5eecd3baf2fc2/AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/273f9de52a891fd512a5eecd3baf2fc2/AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/739ea8f1419e5d95fa6768bd2652f002/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/739ea8f1419e5d95fa6768bd2652f002/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/6079a62f251c41096c6fca3e0d3f0487/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/6079a62f251c41096c6fca3e0d3f0487/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/d8f341b20989f38a23470a960dfb9159/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/d8f341b20989f38a23470a960dfb9159/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-11.8.0.aar/5bfc734e602467ec7a8e744e60f14f0a/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-11.8.0.aar/5bfc734e602467ec7a8e744e60f14f0a/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.8.0.aar/feeedc25de8b3bfb8ea6e12a55e4b649/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.8.0.aar/feeedc25de8b3bfb8ea6e12a55e4b649/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/6ef2745a31ac1021fa6ff4aae62a7231/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/6ef2745a31ac1021fa6ff4aae62a7231/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/4720118962d754053b1175ae2acbd395/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/4720118962d754053b1175ae2acbd395/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.8.0.aar/0097f6726e9049f51adb6f2b1b30ab44/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.8.0.aar/0097f6726e9049f51adb6f2b1b30ab44/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/64ef86f46d130ea970d2be8bf4593d05/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/64ef86f46d130ea970d2be8bf4593d05/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.8.0.aar/e916b2579d92db4d235e8258facd4d6f/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.8.0.aar/e916b2579d92db4d235e8258facd4d6f/AndroidManifest.xml:5:5-20
+	android:supportsRtl
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:22:9-35
+	android:label
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:20:9-41
+	android:roundIcon
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:21:9-54
+	android:icon
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:19:9-43
+	android:allowBackup
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:23:9-40
+activity#com.example.mausami.firebasechatbot.LoginActivity
+ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:25:9-31:20
+	android:name
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:25:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:29:27-74
+activity#com.example.mausami.firebasechatbot.MainActivity
+ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:33:9-34:20
+	android:name
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:33:19-47
+service#com.example.mausami.firebasechatbot.MyFirebaseInstanceIDService
+ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:36:9-40:19
+	android:name
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:36:18-61
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:37:13-39:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:38:17-80
+	android:name
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:38:25-77
+service#com.example.mausami.firebasechatbot.MyFirebaseMessagingService
+ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:42:9-46:19
+	android:name
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:42:18-60
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:43:13-45:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:44:17-78
+	android:name
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:44:25-75
+service#com.example.mausami.firebasechatbot.MyShowMessageService
+ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:48:9-52:19
+	android:enabled
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:51:13-36
+	android:name
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:49:13-49
+uses-sdk
+INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/8f5d7bf26642d55554242224214cc44d/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/8f5d7bf26642d55554242224214cc44d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.siyamed:android-shape-imageview:0.9.3] /Users/mausami/.gradle/caches/transforms-1/files-1.1/android-shape-imageview-0.9.3.aar/f78b4afc9fad7f2c72eb40eec8864fbe/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.siyamed:android-shape-imageview:0.9.3] /Users/mausami/.gradle/caches/transforms-1/files-1.1/android-shape-imageview-0.9.3.aar/f78b4afc9fad7f2c72eb40eec8864fbe/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.stfalcon:chatkit:0.2.2] /Users/mausami/.gradle/caches/transforms-1/files-1.1/chatkit-0.2.2.aar/09e250657757d511bbc982c9e5271b28/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.stfalcon:chatkit:0.2.2] /Users/mausami/.gradle/caches/transforms-1/files-1.1/chatkit-0.2.2.aar/09e250657757d511bbc982c9e5271b28/AndroidManifest.xml:7:5-9:41
+MERGED from [com.karumi:dexter:4.2.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/dexter-4.2.0.aar/605e0f03998f35bbdedd0fcd3eede0de/AndroidManifest.xml:22:5-24:41
+MERGED from [com.karumi:dexter:4.2.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/dexter-4.2.0.aar/605e0f03998f35bbdedd0fcd3eede0de/AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.android:flexbox:0.2.5] /Users/mausami/.gradle/caches/transforms-1/files-1.1/flexbox-0.2.5.aar/e377aafb7811454587eceb63dd14d458/AndroidManifest.xml:23:5-25:41
+MERGED from [com.google.android:flexbox:0.2.5] /Users/mausami/.gradle/caches/transforms-1/files-1.1/flexbox-0.2.5.aar/e377aafb7811454587eceb63dd14d458/AndroidManifest.xml:23:5-25:41
+MERGED from [com.android.support:design:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/c0a4267d68870ca89af8a4c6e76e8d39/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/c0a4267d68870ca89af8a4c6e76e8d39/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/70554dd32e6f00b049a319a877844429/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/70554dd32e6f00b049a319a877844429/AndroidManifest.xml:20:5-44
+MERGED from [com.github.ozodrukh:CircularReveal:1.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/CircularReveal-1.1.0.aar/114da08a77422bacd20f1b4d946d24bd/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.ozodrukh:CircularReveal:1.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/CircularReveal-1.1.0.aar/114da08a77422bacd20f1b4d946d24bd/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/f81dc6b43ef5e5d0091184178f22f1d1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/f81dc6b43ef5e5d0091184178f22f1d1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.8.0.aar/80d509025b6e8266034b6dbdca008ba0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.8.0.aar/80d509025b6e8266034b6dbdca008ba0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/443fba7fca65c4893a4b0662b0536e0d/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/443fba7fca65c4893a4b0662b0536e0d/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/273f9de52a891fd512a5eecd3baf2fc2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/273f9de52a891fd512a5eecd3baf2fc2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/739ea8f1419e5d95fa6768bd2652f002/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/739ea8f1419e5d95fa6768bd2652f002/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/6079a62f251c41096c6fca3e0d3f0487/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/6079a62f251c41096c6fca3e0d3f0487/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/d8f341b20989f38a23470a960dfb9159/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/d8f341b20989f38a23470a960dfb9159/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/333c4a3070c614b735130f7628425fe1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/333c4a3070c614b735130f7628425fe1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3beae9ddeceab682d81d5dd360058e62/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3beae9ddeceab682d81d5dd360058e62/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/aa21159af6fe5ae692ea01c92e09db52/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/aa21159af6fe5ae692ea01c92e09db52/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/4b84e9cdaca4ac1a3aeb327fdd2fcc42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/4b84e9cdaca4ac1a3aeb327fdd2fcc42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/ea552efdc7c722a6697dd3506d82bf90/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/ea552efdc7c722a6697dd3506d82bf90/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/40a4589b31d4505f083562ed7ef0abe2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/40a4589b31d4505f083562ed7ef0abe2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/86c9418fe0f5f8cbb742766377cec559/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/86c9418fe0f5f8cbb742766377cec559/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/e02ef2a328d1d87c53197a11c221a8b5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/e02ef2a328d1d87c53197a11c221a8b5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/348398c54c7b50053f43094b976a2396/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/348398c54c7b50053f43094b976a2396/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/9958ec3a1962e3c1fd8f5b55e72134c7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/mausami/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/9958ec3a1962e3c1fd8f5b55e72134c7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-11.8.0.aar/5bfc734e602467ec7a8e744e60f14f0a/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-11.8.0.aar/5bfc734e602467ec7a8e744e60f14f0a/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.8.0.aar/feeedc25de8b3bfb8ea6e12a55e4b649/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.8.0.aar/feeedc25de8b3bfb8ea6e12a55e4b649/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/6ef2745a31ac1021fa6ff4aae62a7231/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/6ef2745a31ac1021fa6ff4aae62a7231/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/4720118962d754053b1175ae2acbd395/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/4720118962d754053b1175ae2acbd395/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.8.0.aar/0097f6726e9049f51adb6f2b1b30ab44/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.8.0.aar/0097f6726e9049f51adb6f2b1b30ab44/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/64ef86f46d130ea970d2be8bf4593d05/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/64ef86f46d130ea970d2be8bf4593d05/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.8.0.aar/e916b2579d92db4d235e8258facd4d6f/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.8.0.aar/e916b2579d92db4d235e8258facd4d6f/AndroidManifest.xml:4:5-43
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/1ea1a93bc39a62664cebaa2fbf8189f0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/1ea1a93bc39a62664cebaa2fbf8189f0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/2040b200bc77697281410d449abdea98/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/2040b200bc77697281410d449abdea98/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9bad0ca26075468c678ee646ffa61a62/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9bad0ca26075468c678ee646ffa61a62/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/86688e5d732c136cf19cbfff759977ab/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/86688e5d732c136cf19cbfff759977ab/AndroidManifest.xml:20:5-44
+INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:59:13-61:54
+	android:resource
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:61:17-51
+	android:name
+		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:60:17-67
+activity#com.karumi.dexter.DexterActivity
+ADDED from [com.karumi:dexter:4.2.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/dexter-4.2.0.aar/605e0f03998f35bbdedd0fcd3eede0de/AndroidManifest.xml:27:9-29:72
+	android:theme
+		ADDED from [com.karumi:dexter:4.2.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/dexter-4.2.0.aar/605e0f03998f35bbdedd0fcd3eede0de/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.karumi:dexter:4.2.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/dexter-4.2.0.aar/605e0f03998f35bbdedd0fcd3eede0de/AndroidManifest.xml:28:13-60
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.8.0.aar/80d509025b6e8266034b6dbdca008ba0/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.8.0.aar/80d509025b6e8266034b6dbdca008ba0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.8.0.aar/80d509025b6e8266034b6dbdca008ba0/AndroidManifest.xml:29:13-82
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/273f9de52a891fd512a5eecd3baf2fc2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/273f9de52a891fd512a5eecd3baf2fc2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/273f9de52a891fd512a5eecd3baf2fc2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/273f9de52a891fd512a5eecd3baf2fc2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:25:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/273f9de52a891fd512a5eecd3baf2fc2/AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/273f9de52a891fd512a5eecd3baf2fc2/AndroidManifest.xml:28:9-32:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:30:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:29:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:33:9-41:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:36:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:37:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:34:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:38:13-40:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:39:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:39:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:43:9-46:40
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/273f9de52a891fd512a5eecd3baf2fc2/AndroidManifest.xml:34:9-37:40
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/273f9de52a891fd512a5eecd3baf2fc2/AndroidManifest.xml:34:9-37:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:45:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:44:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:47:9-51:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:49:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:50:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:51:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/d76bd20a41e304871c88cec218bf0cce/AndroidManifest.xml:48:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:29:9-63
+permission#com.example.mausami.firebasechatbot.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:32:22-76
+uses-permission#com.example.mausami.firebasechatbot.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:32:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:35:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:38:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:36:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:39:13-43:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.example.mausami.firebasechatbot
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:39:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:40:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:40:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:42:27-58
+category#com.example.mausami.firebasechatbot
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:42:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/50e6aeb84bb7cd77a5a0f1da863a71c7/AndroidManifest.xml:51:13-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/739ea8f1419e5d95fa6768bd2652f002/AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/739ea8f1419e5d95fa6768bd2652f002/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/739ea8f1419e5d95fa6768bd2652f002/AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/739ea8f1419e5d95fa6768bd2652f002/AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/739ea8f1419e5d95fa6768bd2652f002/AndroidManifest.xml:9:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/d8f341b20989f38a23470a960dfb9159/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/d8f341b20989f38a23470a960dfb9159/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/d8f341b20989f38a23470a960dfb9159/AndroidManifest.xml:24:13-58

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "105569086759",
+    "firebase_url": "https://fir-chatbot-66b64.firebaseio.com",
+    "project_id": "fir-chatbot-66b64",
+    "storage_bucket": "fir-chatbot-66b64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105569086759:android:22139e877a3861fe",
+        "android_client_info": {
+          "package_name": "com.example.mausami.firebasechatbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105569086759-2eji5of4uevmelf3qce5i52i5qbvvr4o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mausami.firebasechatbot",
+            "certificate_hash": "7749d91f02d02d8b44db16bddd3f8fee5df0a568"
+          }
+        },
+        {
+          "client_id": "105569086759-eck25t1nhm6vep46vm7bvlfi5vp8cnb5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu9Q42KbuO90z7-aVw78A35pRy4mcDWTE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105569086759-eck25t1nhm6vep46vm7bvlfi5vp8cnb5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
