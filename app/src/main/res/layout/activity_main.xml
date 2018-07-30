@@ -1,41 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.mausami.firebasechatbot.MainActivity">
+    tools:context="com.example.mausami.firebasechatbot.MainActivity"
+    android:orientation="vertical">
+
+    <include android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/window_title_bar"
+        xmlns:android="http://schemas.android.com/apk/res/android" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:weightSum="1">
 
-        <include
+        <com.stfalcon.chatkit.messages.MessagesList
+
+            android:id="@+id/messagesList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/offWhite"
+            android:layout_weight="1"
+            app:incomingDefaultBubbleColor="@color/receivedMessageColor"
+            app:incomingTimeTextColor="@color/white"
+            app:outcomingDefaultBubbleColor="@color/sendMessageColor"
+            app:incomingTextColor="@color/white"/>
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            layout="@layout/window_title_bar" />
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <com.stfalcon.chatkit.messages.MessagesList
-                android:id="@+id/messagesList"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/offWhite"
-                android:layout_above="@+id/input"
-                app:incomingDefaultBubbleColor="@color/receivedMessageColor"
-                app:outcomingDefaultBubbleColor="@color/sendMessageColor"/>
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:weightSum="1">
 
             <com.stfalcon.chatkit.messages.MessageInput
                 android:id="@+id/input"
-                android:layout_width="310dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
                 app:inputHint="Type your message..."
                 app:showAttachmentButton="true"
+                android:layout_weight="1"
+                android:layout_gravity="center"
                 app:inputButtonDefaultBgPressedColor="@color/sendButtonColor"
                 app:inputButtonDefaultBgColor="@color/sendButtonColor"
                 app:attachmentButtonDefaultIconColor="@color/sendButtonColor"
@@ -43,16 +52,17 @@
 
             <ImageButton
                 android:id="@+id/voiceToTextBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_toRightOf="@id/input"
                 android:layout_below="@id/messagesList"
+                android:layout_gravity="center"
                 android:background="@drawable/button_background"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="7dp"
                 android:layout_marginTop="7dp"/>
-        </RelativeLayout>
 
+        </LinearLayout>
     </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>

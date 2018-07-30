@@ -1,4 +1,13 @@
-#Thu Jun 28 13:47:18 IST 2018
-base.0=/Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/build/intermediates/transforms/dexMerger/debug/0
+#Mon Jul 30 14:13:30 IST 2018
+path.3=classes.dex
+path.2=classes.dex
+path.1=classes.dex
 path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
+base.3=/Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/build/intermediates/transforms/dexMerger/debug/12
+base.2=/Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/build/intermediates/transforms/dexMerger/debug/13
+base.1=/Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/build/intermediates/transforms/dexMerger/debug/11
+base.0=/Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/build/intermediates/transforms/dexMerger/debug/14

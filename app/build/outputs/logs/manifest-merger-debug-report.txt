@@ -15,7 +15,7 @@ ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/Firebase
 INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:2:1-66:12
 INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:2:1-66:12
 INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:2:1-66:12
-MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/8f5d7bf26642d55554242224214cc44d/AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/cdb46673f00ddb925fbd579ce5abf992/AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.siyamed:android-shape-imageview:0.9.3] /Users/mausami/.gradle/caches/transforms-1/files-1.1/android-shape-imageview-0.9.3.aar/f78b4afc9fad7f2c72eb40eec8864fbe/AndroidManifest.xml:2:1-12:12
 MERGED from [com.github.stfalcon:chatkit:0.2.2] /Users/mausami/.gradle/caches/transforms-1/files-1.1/chatkit-0.2.2.aar/09e250657757d511bbc982c9e5271b28/AndroidManifest.xml:2:1-15:12
 MERGED from [com.karumi:dexter:4.2.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/dexter-4.2.0.aar/605e0f03998f35bbdedd0fcd3eede0de/AndroidManifest.xml:17:1-32:12
@@ -108,8 +108,8 @@ ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/Firebase
 		ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:13:9-47
 application
 ADDED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml:17:5-64:19
-MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/8f5d7bf26642d55554242224214cc44d/AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/8f5d7bf26642d55554242224214cc44d/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/cdb46673f00ddb925fbd579ce5abf992/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/cdb46673f00ddb925fbd579ce5abf992/AndroidManifest.xml:9:5-20
 MERGED from [com.github.stfalcon:chatkit:0.2.2] /Users/mausami/.gradle/caches/transforms-1/files-1.1/chatkit-0.2.2.aar/09e250657757d511bbc982c9e5271b28/AndroidManifest.xml:11:5-13:38
 MERGED from [com.github.stfalcon:chatkit:0.2.2] /Users/mausami/.gradle/caches/transforms-1/files-1.1/chatkit-0.2.2.aar/09e250657757d511bbc982c9e5271b28/AndroidManifest.xml:11:5-13:38
 MERGED from [com.karumi:dexter:4.2.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/dexter-4.2.0.aar/605e0f03998f35bbdedd0fcd3eede0de/AndroidManifest.xml:26:5-30:19
@@ -210,8 +210,8 @@ uses-sdk
 INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml
 INJECTED from /Users/mausami/iCloud Drive (Archive)/Documents/LiveProjects/FirebaseChatbot/app/src/main/AndroidManifest.xml
-MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/8f5d7bf26642d55554242224214cc44d/AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/8f5d7bf26642d55554242224214cc44d/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/cdb46673f00ddb925fbd579ce5abf992/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/mausami/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/cdb46673f00ddb925fbd579ce5abf992/AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.siyamed:android-shape-imageview:0.9.3] /Users/mausami/.gradle/caches/transforms-1/files-1.1/android-shape-imageview-0.9.3.aar/f78b4afc9fad7f2c72eb40eec8864fbe/AndroidManifest.xml:8:5-10:41
 MERGED from [com.github.siyamed:android-shape-imageview:0.9.3] /Users/mausami/.gradle/caches/transforms-1/files-1.1/android-shape-imageview-0.9.3.aar/f78b4afc9fad7f2c72eb40eec8864fbe/AndroidManifest.xml:8:5-10:41
 MERGED from [com.github.stfalcon:chatkit:0.2.2] /Users/mausami/.gradle/caches/transforms-1/files-1.1/chatkit-0.2.2.aar/09e250657757d511bbc982c9e5271b28/AndroidManifest.xml:7:5-9:41

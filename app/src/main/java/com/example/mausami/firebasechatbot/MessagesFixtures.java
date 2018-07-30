@@ -1,5 +1,8 @@
 package com.example.mausami.firebasechatbot;
 
+import android.content.ContentResolver;
+import android.net.Uri;
+
 import com.example.mausami.firebasechatbot.model.Message;
 import com.example.mausami.firebasechatbot.model.User;
 
@@ -31,7 +34,13 @@ public final class MessagesFixtures {
     }
 
     private static User receiveUser(){
-        return new User("AECOM-BOT1","AECOM1","https://engineering.unl.edu/images/staff/Kayla_Person-small.jpg",true);
+        return new User("AECOM-BOT1","AECOM1","http",true);
+
+
+
+
+        //return new User("AECOM-BOT1","AECOM1", Uri.parse("res:///" + R.drawable.bot_icon).toString(),true);
+
 
     }
 }

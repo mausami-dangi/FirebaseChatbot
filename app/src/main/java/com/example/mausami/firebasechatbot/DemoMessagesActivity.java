@@ -32,7 +32,7 @@ public abstract class DemoMessagesActivity extends AppCompatActivity {
                 if (url != null){
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                         if (url.contains("http")){
-                            Picasso.with(DemoMessagesActivity.this).load(url).into(imageView);
+                            Picasso.with(DemoMessagesActivity.this).load(R.drawable.bot_icon).into(imageView);
                         }
                         else {
                             File f = new File(url);

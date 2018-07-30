@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#0d7ab5</color>
-    <color name="colorPrimaryDark">#0c6ca0</color>
+    <color name="colorPrimary">#054c94</color>
+    <color name="colorPrimaryDark">#1e5e9f</color>
     <color name="colorAccent">#FF4081</color>
     <color name="white">#ffffff</color>
     <color name="offWhite">#fdfdff</color>
     <color name="loginBackground">#0d7ab5</color>
-    <color name="sendButtonColor">#0d7ab5</color>
-    <color name="receivedMessageColor">#f0f2ff</color>
-    <color name="sendMessageColor">#0d7ab5</color>
-    <color name="loginButtonColor">#48b6e9</color>
-    <color name="colorButton">#3d5f51</color>
-    <color name="colorButtonActive">#1bea95</color>
+    <color name="sendButtonColor">#054c94</color>
+    <color name="receivedMessageColor">#8aa7c3</color>
+    <color name="sendMessageColor">#1e5e9f</color>
+    <color name="loginButtonColor">#4acfe2</color>
+    <color name="colorButton">#054c94</color>
+    <color name="colorButtonActive">#1e5e9f</color>
+    <color name="grey">#aaaaaa</color>
+    <color name="incomingBubbleColor">#8aa7c3</color>
+    <color name="chatBackground">#e3e3e3</color>
+    <color name="attachment">#c2c2c2</color>
+
 </resources>

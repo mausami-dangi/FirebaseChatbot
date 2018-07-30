@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">AECOM</string>
     <string name="Login">Login</string>
+    <string name="Welcome">Login</string>
+    <string name="EmailID">Email ID</string>
+    <string name="Password">Password</string>
+    <string name="headername"><i>AECOM Assistant</i></string>
+
 </resources>
