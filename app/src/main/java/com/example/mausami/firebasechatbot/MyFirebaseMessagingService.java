@@ -8,6 +8,9 @@ import android.content.Intent;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.support.v4.app.NotificationCompat;
+import android.text.Html;
+import android.text.method.LinkMovementMethod;
+import android.text.util.Linkify;
 import android.util.Log;
 import com.example.mausami.firebasechatbot.helpers.SharedPreferencesHelper;
 import com.google.firebase.messaging.FirebaseMessagingService;
@@ -44,6 +47,9 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
                 messageString = messageStr;
                 messageString = messageString.replaceAll("</br>", lineSep);
 
+                // Remove all HTML tags
+                messageString = messageString.replaceAll("\\<.*?>","");
+
                 try {
                     JSONObject payloadJsonObject = new JSONObject(payloadStr);
                     pageStr = payloadJsonObject.getString("page");
@@ -63,8 +69,8 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         SharedPreferencesHelper.putString(SharedPreferencesHelper.PAYLOAD_STRING,payloadStr,getApplicationContext());
         SharedPreferencesHelper.putString(SharedPreferencesHelper.PAGE_STRING,pageStr,getApplicationContext());
         SharedPreferencesHelper.putString(SharedPreferencesHelper.STEP_STRING,stepStr,getApplicationContext());
-        SharedPreferencesHelper.putString(SharedPreferencesHelper.STEP_STRING,stepStr,getApplicationContext());
-        SharedPreferencesHelper.putString(SharedPreferencesHelper.SESSION_STRING,sessionStr,getApplicationContext());
+//        SharedPreferencesHelper.putString(SharedPreferencesHelper.STEP_STRING,stepStr,getApplicationContext());
+           SharedPreferencesHelper.putString(SharedPreferencesHelper.SESSION_STRING,sessionStr,getApplicationContext());
 
 
       //  createNotification(remoteMessage.getNotification().getTitle(), messageString);

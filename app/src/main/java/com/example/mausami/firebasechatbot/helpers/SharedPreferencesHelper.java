@@ -31,7 +31,7 @@ public class SharedPreferencesHelper {
         if (sharedPreferences == null){
             initSharedPreference(context);
         }
-        editor.putString( key, value).commit();
+        editor.putString(key, value).commit();
     }
 
     public static String getString(String key, Context context){

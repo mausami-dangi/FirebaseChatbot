@@ -1,5 +1,6 @@
 package com.example.mausami.firebasechatbot;
 
+import android.content.SharedPreferences;
 import android.util.Log;
 
 import com.example.mausami.firebasechatbot.helpers.SharedPreferencesHelper;
@@ -23,9 +24,11 @@ public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService {
         // manage this apps subscriptions on the server side, send the
         // Instance ID token to your app server.
         sendRegistrationToServer(refreshedToken);
+
     }
 
     private void sendRegistrationToServer(String refreshedToken) {
         SharedPreferencesHelper.putString(SharedPreferencesHelper.FIREBASE_TOKEN,refreshedToken,getApplicationContext());
+
     }
 }

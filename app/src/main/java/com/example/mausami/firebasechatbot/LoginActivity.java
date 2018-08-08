@@ -2,6 +2,7 @@ package com.example.mausami.firebasechatbot;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -38,7 +39,7 @@ public class LoginActivity extends AppCompatActivity{
         edt_password = (EditText) findViewById(R.id.edt_password);
         btn_login = (Button)findViewById(R.id.btn_login);
 
-        TOKEN = SharedPreferencesHelper.getString(SharedPreferencesHelper.FIREBASE_TOKEN, getApplicationContext());
+
 
         edt_emailid.setOnKeyListener(new View.OnKeyListener() {
 
@@ -64,6 +65,7 @@ public class LoginActivity extends AppCompatActivity{
                 } else if (edt_password.getText().toString().matches("")) {
                     Toast.makeText(LoginActivity.this, "Please Enter Your Password", Toast.LENGTH_SHORT).show();
                 } else {
+                    TOKEN = SharedPreferencesHelper.getString(SharedPreferencesHelper.FIREBASE_TOKEN, getApplicationContext());
 
                     apiCall(edt_emailid.getText().toString(), edt_password.getText().toString(),TOKEN);
                 }

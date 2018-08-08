@@ -198,6 +198,8 @@ public class MainActivity extends DemoMessagesActivity {
             @Override
             public void onAddAttachments() {
 
+                Toast.makeText(context, "Attachment Button Clicked", Toast.LENGTH_SHORT).show();
+
                 // custom dialog
                 dialog = new Dialog(context);
                 dialog.setContentView(R.layout.attachment_dialog);
